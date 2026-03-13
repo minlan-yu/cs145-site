@@ -56,7 +56,7 @@ We run all our programs in a virtual machine. The VM is built on Ubuntu 22.04.5 
 
 ### Machine guidelines
 
-There are some tasks throughout the projects in this course where you will observe differnet behaviors depending on your machines. In general, if you run the VM on a processor that is equivalent to or better than an i7 with a clockrate higher than 2.8 GHz and at least 8 GB of RAM, you will observe expected behaviors. However, if you get a low-end machine and observe a different behavior for these tasks, it's completely ok. You just need to explain your observations in the report.
+There are some tasks throughout the projects in this course where you will observe different behaviors depending on your machines. In general, if you run the VM on a processor that is equivalent to or better than an i7 with a clockrate higher than 2.8 GHz and at least 8 GB of RAM, you will observe expected behaviors. However, if you get a low-end machine and observe a different behavior for these tasks, it's completely ok. You just need to explain your observations in the report.
 
 We recommend allowing your VM usage of at least two CPU cores and at least 8 GB of RAM (the higher the better, for both). Also, try to turn off the other unnecessary applications in your machines to avoid interrupting the VM.
 
@@ -70,7 +70,7 @@ Combining this with the terminal functionality of VSCode (which will also automa
 
 ## Using GitHub Classroom
 
-This course uses git and GitHub Classroom for all its projects. The [Harvard SEAS git introduction](https://wiki.harvard.edu/confluence/display/USERDOCS/Introduction+To+GIT) is a good way to get set up with git quickly. Please take a look at [git notes](http://cs61.seas.harvard.edu/site/ref/git) for the CS 61 Fall 2020 offering for a more interesting introduction. We discuss using GitHub Classroom for our projects here.
+This course uses git and GitHub Classroom for all its projects. The [Harvard SEAS git introduction](https://wiki.harvard.edu/confluence/display/USERDOCS/Introduction+To+GIT) is a good way to get set up with git quickly. Please take a look at [git notes](https://cs61.seas.harvard.edu/site/2025/git/) from CS 61 for a more interesting introduction. We discuss using GitHub Classroom for our projects here.
 
 ### Configure git username and email
 
@@ -89,7 +89,7 @@ Each project has or will have a GitHub Classroom link posted on our course websi
 After booting your virtual machine, you need to clone this project repository in your virtual machine (the specific cloning command for each project might be different; please follow project READMEs):
 
 ```bash
-git clone --recurse-submodules https://github.com/Harvard-CS145/cs145-25-projectX-YYY.git
+git clone --recurse-submodules https://github.com/Harvard-CS145/cs145-27-projectX-YYY.git
 ```
 
 where X (1-8) is the project number, and YYY is your Github username. The description and code skeletons of each minor project are in this repository. In this repository, you will finish your coding in each minor project, test your programs, and submit your codes into Github for grading.
