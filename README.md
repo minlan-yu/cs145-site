@@ -1,19 +1,16 @@
-# CS 1450, Spring 2025: Networking at Scale
+# CS 1450, Spring 2027: Networking at Scale
 
 ## Overview
 
 This course studies computer network topics including Layer 2/Layer 3 topology, routing, transport protocols, traffic engineering, network functions, programmable switches, and software-defined networking. Modern networks have grown to large scale (connecting millions of servers) and high speed (Terabits per second) to meet the needs of cloud applications in business and society. Thus, in addition to learning the conventional concepts in networking, we will also discuss how to adapt these concepts to large-scale networks. These discussions will hopefully help deepen our understanding of networking technologies. This course includes lectures and system programming projects.
 
 - Instructor: Minlan Yu
-- Lecture time: T/TH 11:15-12:30am
-- Lecture location: SEC 1.402
-- Section time: Fridays 2:15-3:15 pm every other week (available on demand for extension students). Please see the syllabus below for the actual dates for sections.
-- Section location: SEC 1.402
-- Minlan Office hours: Tue 10-11, SEC 4.415
-- TF and office hours:
-  * Howard Huang: howardhuang@college.harvard.edu; Winthrop Dhall at 8pm on Wednesdays (CS Nights)
-  * Raj Joshi: rajjoshi@g.harvard.edu; Thursdays 4-6pm, virtual on Zoom
-  * Yao Xiao: yaoxiao@g.harvard.edu; Fridays 4-6pm, virtual on Zoom
+- Lecture time: TBD
+- Lecture location: TBD
+- Section time: TBD
+- Section location: TBD
+- Minlan Office hours: TBD
+- TF and office hours: TBD
 - Prerequisites: There are no official prerequisites. Recommended prep: system programming at the level of CS 61.
 
 ## Textbook
@@ -41,91 +38,91 @@ This course studies computer network topics including Layer 2/Layer 3 topology, 
 * [Infrastructure notes](infra.md)
 
 * **Project 0:**
-You are required to finish [Project 0](https://classroom.github.com/a/uzL3S4Q_) before the class or in the first week of the class. Project 0 will not be graded. This is just a project for you to check if you are comfortable with the level of programming in this class and to set up infrastructure for future projects.
+You are required to finish [Project 0](TBD) before the class or in the first week of the class. Project 0 will not be graded. This is just a project for you to check if you are comfortable with the level of programming in this class and to set up infrastructure for future projects.
 
 ### Week 1
-* Jan 28 Tue class: Course Overview; Internet Principles
+* Jan 26 Tue class: Course Overview; Internet Principles
    - Supplemental: [UMass Professor Explains the Internet in 5 Levels of Difficulty](https://www.youtube.com/watch?v=0EqKnvzo3no&t=1216s) by Jim Kurose
-* Jan 30 Thu class: Network at Scale; Network topology (K&R 6.6)
-* Jan 30 Thu: `Project 1 (Topology) released` [Project 1 GitHub Classroom Link](https://classroom.github.com/a/AHlfb-bJ)
-* Jan 31 Fri section: Mininet tutorial
-* Feb 2 Sun: `Project 0 check-in`
+* Jan 28 Thu class: Network at Scale; Network topology (K&R 6.6)
+* Jan 28 Thu: `Project 1 (Topology) released` [Project 1 GitHub Classroom Link](TBD)
+* Jan 29 Fri section: Mininet tutorial
+* Jan 31 Sun: `Project 0 check-in`
 
 ### Week 2
-* Feb 4 Tue class: Network topology (K&R 6.6)
-* Feb 6 Thu class: Link layer: Ethernet (K&R 6.1-6.4)
+* Feb 2 Tue class: Network topology (K&R 6.6)
+* Feb 4 Thu class: Link layer: Ethernet (K&R 6.1-6.4)
 
 ### Week 3
-* Feb 11 Tue class: Link layer: Ethernet (K&R 6.1-6.4)
-* Feb 13 Thu class: Network layer: Control plane (K&R 5.2, 5.3)
-* Feb 13 Thu: `Project 2 (intradomain routing) released` [Project 2 GitHub Classroom Link](https://classroom.github.com/a/RMsGm0bG)
-* Feb 14 Fri section: Q&A on project 1
-* Feb 16 Sun: `Project 1 due`
+* Feb 9 Tue class: Link layer: Ethernet (K&R 6.1-6.4)
+* Feb 11 Thu class: Network layer: Control plane (K&R 5.2, 5.3)
+* Feb 11 Thu: `Project 2 (intradomain routing) released` [Project 2 GitHub Classroom Link](TBD)
+* Feb 12 Fri section: Q&A on project 1
+* Feb 14 Sun: `Project 1 due`
 
 ### Week 4
-* Feb 18 Tue class: Network layer: Data plane (K&R 4.1-4.3, 6.4, K&R 1.3)
-* Feb 20 Thu class: Discovery service
-* Feb 21 Fri section: Routing protocols
+* Feb 16 Tue class: Network layer: Data plane (K&R 4.1-4.3, 6.4, K&R 1.3)
+* Feb 18 Thu class: Discovery service
+* Feb 19 Fri section: Routing protocols
 
 ### Week 5
-* Feb 25 Tue class: Network layer: data center routing (K&R 5.4)
+* Feb 23 Tue class: Network layer: data center routing (K&R 5.4)
   - Supplemental [VL2: A Scalable and Flexible Data Center Network](https://dl.acm.org/doi/pdf/10.1145/1592568.1592576)
-* Feb 27 Thu class: BGP
-* Feb 28 Fri: `Project 3 (ECMP) Released` [Project 3 GitHub Classroom Link](https://classroom.github.com/a/jyQOHwDK)
-* Feb 28 Fri section: Project 3 ECMP tutorial
-* Mar 2 Sun: `Project 1 grading out`
+* Feb 25 Thu class: BGP
+* Feb 26 Fri: `Project 3 (ECMP) Released` [Project 3 GitHub Classroom Link](TBD)
+* Feb 26 Fri section: Project 3 ECMP tutorial
+* Feb 28 Sun: `Project 1 grading out`
 
 ### Week 6
-* Mar 4 Tue class: BGP in data centers
-* Mar 4 Tue: `Project 2 Due`
-* Mar 6 Thu class: Packet switching vs Circuit Switching
+* Mar 2 Tue class: BGP in data centers
+* Mar 2 Tue: `Project 2 Due`
+* Mar 4 Thu class: Packet switching vs Circuit Switching
 
 ### Week 7
-* Mar 11 Tue class: Transport layer: Reliable transport (K&R 3.1-3.5)
-* Mar 13 Thu class: Transport layer: TCP basics (K&R 3.1-3.5)
-* Mar 13 Thu: `Project 4 (reliable transport) released` [Project 4 GitHub Classroom Link](https://classroom.github.com/a/P3yvMLj2)
-* Mar 14 Fri section: Transport tutorial
-* Mar 16 Sun: `Project 3 Due`
-* Mar 16 Sun: `Project 2 grading out`
+* Mar 9 Tue class: Transport layer: Reliable transport (K&R 3.1-3.5)
+* Mar 11 Thu class: Transport layer: TCP basics (K&R 3.1-3.5)
+* Mar 11 Thu: `Project 4 (reliable transport) released` [Project 4 GitHub Classroom Link](TBD)
+* Mar 12 Fri section: Transport tutorial
+* Mar 14 Sun: `Project 3 Due`
+* Mar 14 Sun: `Project 2 grading out`
 
 ### Week 8  Spring recess. No class
 
 ### Week 9
-* Mar 25 Tue class: Transport layer: Congestion control (K&R 3.6)
-* Mar 27 Thu class: course review
-* Mar 30 Sun: `Project 3 grading out`
+* Mar 23 Tue class: Transport layer: Congestion control (K&R 3.6)
+* Mar 25 Thu class: course review
+* Mar 28 Sun: `Project 3 grading out`
 
 ### Week 10
-* Apr 1 Tue class: **Exam**
-   * Extension school students will take the exam on Canvas on Apr 1-2. The exam will be available starting at 9:45 AM ET and will be available for 24 hours. You must finish the exam within 1 hour and 15 minutes of starting the exam.
-* Apr 3 Thu class: Data center TCP; 
-* Apr 3 Thu: `Project 5 (traffic balancing) released` [Project 5 GitHub Classroom Link](https://classroom.github.com/a/Y13lEg9F)
-* Apr 4 Fri section: Data center load balancing tutorial
-* Apr 6 Sun: `Project 4 due`
+* Mar 30 Tue class: **Exam**
+   * Extension school students will take the exam on Canvas. The exam will be available starting at 9:45 AM ET and will be available for 24 hours. You must finish the exam within 1 hour and 15 minutes of starting the exam.
+* Apr 1 Thu class: Data center TCP;
+* Apr 1 Thu: `Project 5 (traffic balancing) released` [Project 5 GitHub Classroom Link](TBD)
+* Apr 2 Fri section: Data center load balancing tutorial
+* Apr 4 Sun: `Project 4 due`
 
 ### Week 11
-* Apr 8 Tue class: Data center TCP; Data center load balancing
-* Apr 10 Thu class: TCP fairness (K&R 3.7.1); 
-  - Supplemental: [The Future of Networking, and the Past of Protocols](https://www.youtube.com/watch?v=YHeyuD89n1Y) by Scott Shenker 
-* Apr 13 Sun: `Project 4 grading out`
+* Apr 6 Tue class: Data center TCP; Data center load balancing
+* Apr 8 Thu class: TCP fairness (K&R 3.7.1);
+  - Supplemental: [The Future of Networking, and the Past of Protocols](https://www.youtube.com/watch?v=YHeyuD89n1Y) by Scott Shenker
+* Apr 11 Sun: `Project 4 grading out`
 
 ### Week 12
-* Apr 15 Tue class: Host networking (by Raj Joshi, Minlan travel)
-* Apr 17 Thu class: SDN in the control plane (K&R 4.4, 5.5)
-* Apr 17 Thu: `Project 6 released` [Project 6 GitHub Classroom Link](https://classroom.github.com/a/A6iyTDWi)
-* Apr 18 Fri section: Final project suggestions
-* Apr 20 Sun: `Project 5 due`
+* Apr 13 Tue class: Host networking
+* Apr 15 Thu class: SDN in the control plane (K&R 4.4, 5.5)
+* Apr 15 Thu: `Project 6 released` [Project 6 GitHub Classroom Link](TBD)
+* Apr 16 Fri section: Final project suggestions
+* Apr 18 Sun: `Project 5 due`
 
 ### Week 13
-* Apr 22 Tue class: SDN in the data plane
-* Apr 24 Thu class: Research projects in networking (led by Raj Joshi, Minlan travel)
-* Apr 27 Sun: `Project 5 grading out`
+* Apr 20 Tue class: SDN in the data plane
+* Apr 22 Thu class: Research projects in networking
+* Apr 25 Sun: `Project 5 grading out`
 
 ### Week 14
-* Apr 29 Tue class: Data center applications; Course summary
+* Apr 27 Tue class: Data center applications; Course summary
 
 ### Week 15
-* May 13 Tue: `Project 6 due`
+* May 11 Tue: `Project 6 due`
 
 ## Project
 
@@ -134,7 +131,7 @@ You are required to finish [Project 0](https://classroom.github.com/a/uzL3S4Q_) 
 This course project runs throughout the semester. Through this project, you will reach two objectives:
 
 * Build a full stack data center network on your own laptop ranging from topology, and routing, to applications.
-* You will get hands-on experiences with the major concepts learnt in lectures and understand the tradeoffs of different design decisions
+* You will get hands-on experience with the major concepts learnt in lectures and understand the tradeoffs of different design decisions
 
 ### Late policy
 You should submit your work on an assignment (electronically) before its due time. All assignments will be due at `11:59 pm ET` on the deadline date.
