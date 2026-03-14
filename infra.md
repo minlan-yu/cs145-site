@@ -22,9 +22,7 @@ We *strongly recommend* you do all problem sets using the virtual machine enviro
 
 A virtual machine monitor, or VMM, is a piece of software that allows you to run another operating system "virtually," inside your base operating system. For example, you can run Linux inside Windows.
 
-We have had good experiences with a commercial VMM called [VMWare](https://www.vmware.com/). VMWare's Mac OS X product is called [VMware Fusion](https://www.vmware.com/products/fusion.html), and its Windows product is called [VMWare Workstation](https://www.vmware.com/products/workstation-player.html). These products are not free, but you can get an academic/personal license to use one for the duration of the class.
-
-To obtain VMware: Follow the instructions [here](https://www.mikeroysoft.com/post/download-fusion-ws/).
+We have had good experiences with a VMM called [VMware](https://www.vmware.com/). VMware's Mac OS X product is called [VMware Fusion](https://www.vmware.com/products/fusion.html), and its Windows product is called [VMware Workstation](https://www.vmware.com/products/workstation-player.html). Both products are free to download and use.
 
 If you're installing Fusion:
 
